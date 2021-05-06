@@ -5,12 +5,10 @@ Version: 1.0
 */
 
 body {
-	background-image: url('images/site_background2.jpg');
+	background-image: url('images/site_bg.jpg');
 	font-family: 'Inter', sans-serif;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 25%;
-	background-size: 100% 230%;
+	background-size: cover;
 }
 
 .logo-img {
