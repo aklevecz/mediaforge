@@ -5,6 +5,7 @@ Version: 1.0
 */
 
 body {
+	background-image: url('images/site_background2.jpg');
 	font-family: 'Inter', sans-serif;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
