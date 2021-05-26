@@ -99,7 +99,10 @@ section h1 {
     opacity: 0;
   }
 }
-
+#float-left {
+	background-color: #fffaf4b3;
+	padding-bottom: 20px;
+}
 .logo-img {
 	width:160px;
 	padding: 2% 0 0 2%;
