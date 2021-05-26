@@ -27,15 +27,15 @@ section::after {
 }
 section h1 {
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top: 20%;
+  left: 60%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fef1e3;
   font : normal 200 20px/1 'Inter', sans-serif;
-  text-align: left;
-  width: 40%;
+  text-align: center;
+  width: 70%;
 }
 #section05 { background: url(images/site_bg3.jpg) center center / cover no-repeat;}
 .demo a {
