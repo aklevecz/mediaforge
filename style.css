@@ -47,7 +47,7 @@ section h1 {
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fef1e3;
-  font : normal 300 18px/1 'Inter', sans-serif;
+  font : normal 300 18px/1 'halogen', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
