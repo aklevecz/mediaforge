@@ -27,16 +27,17 @@ section::after {
 }
 section h1 {
   position: absolute;
-  top: 65%;
-  left: 50%;
+  top: 40%;
+  left: 25%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fef1e3;
-  font : normal 150 25px/1 'Inter', sans-serif;
-  text-align: center;
+  font : normal 200 20px/1 'Inter', sans-serif;
+  text-align: left;
+  width: 40%;
 }
-#section05 { background: url(images/site_bg2.jpg) center center / cover no-repeat;}
+#section05 { background: url(images/site_bg3.jpg) center center / cover no-repeat;}
 .demo a {
   position: absolute;
   bottom: 20px;
