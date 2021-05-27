@@ -6,10 +6,10 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body onload="document.getElementById(h1).style.opacity='0'">
+<body>
 
 </div>
-<section id="section05" class="demo">
+<section id="section05" class="demo01">
   <div id="float-left">
     <img class="logo-img" src='images/primary_logo2.png'>
   </div>
@@ -18,15 +18,10 @@
 </section>
 
 <script>
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
+
 </script>
 
-<section id="contact">
+<section id="contact" class="demo02">
     <form action="mailto:info@mediaforge.com" method="get" enctype="text/plain">
       <div>
         <label for="name">Name:
@@ -44,10 +39,10 @@ $(function() {
         <textarea name="comments" rows="12" cols="35"></textarea>
       </div>
       <div>
-        <input type="submit" name="submit" value="Send" />
-        <input type="reset" name="reset" value="Clear Form" />
+        <button type="submit" name="submit" value="Send">Submit</button>
       </div>
     </form>
+    <a href="#">Back</a>
 </section>
 
 </body>
