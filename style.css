@@ -27,12 +27,12 @@ section::after {
 }
 section h1 {
   position: absolute;
-  top: 20%;
-  left: 60%;
+  top: 26%;
+  left: 50%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #fef1e3;
+  color: #0A1F33;
   font : normal 200 20px/1 'Inter', sans-serif;
   text-align: center;
   width: 70%;
@@ -99,12 +99,8 @@ section h1 {
     opacity: 0;
   }
 }
-#float-left {
-	background-color: #fffaf4b3;
-	padding-bottom: 20px;
-}
 .logo-img {
-	width:160px;
+	width:120px;
 	padding: 2% 0 0 2%;
 	display: block;
 }
