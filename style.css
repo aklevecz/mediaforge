@@ -36,7 +36,7 @@ section h1 {
        -o-transition: opacity 2s ease-in;
           transition: opacity 2s ease-in;
   position: absolute;
-  top: 40%;
+  top: 48%;
   left: 25%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
@@ -74,8 +74,8 @@ section h1 {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fef1e3;
-  border-bottom: 1px solid #fef1e3;
+  border-left: 1px solid #ff470f;
+  border-bottom: 1px solid #ff470f;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb05 1.5s infinite;
@@ -107,6 +107,9 @@ section h1 {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
+}
+#contact {
+	background-color: #ff470f;
 }
 .logo-img {
 	width:140px;
