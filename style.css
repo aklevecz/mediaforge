@@ -117,27 +117,12 @@ section h1 {
 #contact {
 	background-color: #ffb683;
 }
-form {
+#email-us {
 	position: absolute;
 	top: 15%;
 	left: 36%;
 	z-index: 2;
-}
-input, textarea {
-	display: block;
-	margin: 10px 0 20px 0;
-	border: 1px solid white;
-	background-color: transparent;
-	padding: 10px 5px 10px 5px;
 	font: normal 200 20px 'Inter', sans-serif;
-	width: 100%;
-	border-radius: 5px;
-}
-textarea {
-	height: 150px;
-}
-label {
-	font: normal 300 18px 'halogen', sans-serif;
 }
 button {
 	padding: 15px 25px;
