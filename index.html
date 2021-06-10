@@ -17,12 +17,8 @@
   <a href="#contact"><span></span>Contact</a>
 </section>
 
-<script>
-
-</script>
-
 <section id="contact" class="demo02">
-    <form action="mailto:info@mediaforge.com" method="get" enctype="text/plain">
+    <form action="contact-form-handler.php" method="post">
       <div>
         <label for="name">Name:
           <input type="text" name="name" id="name" />
@@ -36,7 +32,7 @@
       <div>
         <label>Message:</label>
         <br />
-        <textarea name="comments" rows="12" cols="35"></textarea>
+        <textarea name="message"></textarea>
       </div>
       <div>
         <button type="submit" name="submit" value="Send">Submit</button>
