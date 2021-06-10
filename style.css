@@ -1,8 +1,3 @@
-/*
-Theme Name: Media Forge
-Author: Megan Paradowski
-Version: 1.0
-*/
 * {
   margin: 0;
   padding: 0;
@@ -37,18 +32,18 @@ section h1 {
           transition: opacity 2s ease-in;
   position: absolute;
   top: 48%;
-  left: 25%;
+  left: 30%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fef1e3;
-  font : normal 200 20px 'Inter', sans-serif;
+  font : normal 200 22px 'Inter', sans-serif;
   text-align: left;
-  width: 40%;
+  width: 45%;
   line-height: initial;
 }
-#section05 { background: url(images/site_bg3.jpg) center center / cover no-repeat;}
-.demo01 a, .demo02 a {
+#section01 { background: url(images/site_bg3.jpg) center center / cover no-repeat;}
+.page a {
   position: absolute;
   bottom: 20px;
   z-index: 2;
@@ -60,28 +55,26 @@ section h1 {
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
+  left: 50%;
+  width: 250px;
+  margin-left: -125px;
+  text-align: center;
 }
-.demo01 a {
-	left: 46.5%;
-}
-.demo02 a {
-	left: 47.5%;
-}
-.demo01 a:hover, .demo02 a:hover {
+.page a:hover {
   opacity: .5;
 }
-#section05 a, #contact a {
+#section01 a, #contact a {
   padding-top: 70px;
 }
-#section05 a span, #contact a span {
+#section01 a span, #contact a span {
   position: absolute;
   top: 0;
   left: 50%;
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #ff470f;
-  border-bottom: 1px solid #ff470f;
+  border-left: 2px solid #ff470f;
+  border-bottom: 2px solid #ff470f;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb05 1.5s infinite;
@@ -119,8 +112,8 @@ section h1 {
 }
 #email-us {
 	position: absolute;
-	top: 25%;
-	left: 30%;
+	top: 30%;
+	left: 37%;
 	z-index: 2;
 	color: white;
 }
@@ -131,17 +124,22 @@ button {
 	background-color: #ff470f;
 	border: none;
 	border-radius: 5px;
+	cursor: pointer;
+	opacity: .9;
+}
+button:hover {
+  opacity: .8;
 }
 .logo-img {
-	width:140px;
+	width: 150px;
 	padding: 2% 0 0 2%;
 	display: block;
 }
 h3 {
-	font: normal 200 20px 'Inter', sans-serif;
-	padding-bottom: 20px;
+	font: normal 200 28px 'Inter', sans-serif;
+	padding-bottom: 40px;
 }
 h2 {
 	font : normal 300 48px 'halogen', sans-serif;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
