@@ -51,6 +51,7 @@ section h1 {
 }
 #section01 { background: url(images/site_bg3.jpg) center center / cover no-repeat;}
 .page a {
+  cursor: pointer;
   position: absolute;
   bottom: 20px;
   z-index: 2;
@@ -154,22 +155,22 @@ h2 {
 }
 @media only screen and (max-width: 600px) {
 	.logo-img {
-		width: 250px;
+		width: 175px;
 		padding: 5% 0 0 5%;
 	}
 	h1 {
-		font : normal 200 32px 'Inter', sans-serif;
+		font : normal 200 27px 'Inter', sans-serif;
 	}
 	.page a {
-		font : normal 300 34px 'halogen', sans-serif;
+		font : normal 300 29px 'halogen', sans-serif;
 	}
 	h2 {
-		font : normal 300 58px 'halogen', sans-serif;
+		font : normal 300 53px 'halogen', sans-serif;
 	}
 	h3 {
-		font: normal 200 38px 'Inter', sans-serif;
+		font: normal 200 33px 'Inter', sans-serif;
 	}
 	button {
-		font: normal 400 30px 'Inter', sans-serif;
+		font: normal 400 25px 'Inter', sans-serif;
 	}
 }
