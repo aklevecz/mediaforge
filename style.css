@@ -8,6 +8,12 @@ html {
 html, body {
   height: 100%;
 }
+.app-container {
+  position: absolute;
+  height:100%;
+  width:100%;
+  overflow-x: hidden;
+}
 section {
   position: relative;
   width: 100%;
@@ -151,18 +157,18 @@ h2 {
 		padding: 5% 0 0 5%;
 	}
 	h1 {
-		font-size: 32px;
+		font : normal 200 32px 'Inter', sans-serif;
 	}
 	.page a {
-		font-size: 36px;
+		font : normal 300 34px 'halogen', sans-serif;
 	}
 	h2 {
-		font-size: 60px;
+		font : normal 300 58px 'halogen', sans-serif;
 	}
 	h3 {
-		font-size: 40px;
+		font: normal 200 38px 'Inter', sans-serif;
 	}
 	button {
-		font-size: 28px;
+		font: normal 400 30px 'Inter', sans-serif;
 	}
 }
