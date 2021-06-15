@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-html {
+html, .app-container {
   scroll-behavior: smooth;
 }
 html, body {
@@ -154,7 +154,7 @@ h2 {
 	padding-bottom: 10px;
 }
 @media only screen and (max-width: 600px) {
-	.logo-img {
+/*	.logo-img {
 		width: 175px;
 		padding: 5% 0 0 5%;
 	}
@@ -172,5 +172,5 @@ h2 {
 	}
 	button {
 		font: normal 400 25px 'Inter', sans-serif;
-	}
+	}*/
 }
