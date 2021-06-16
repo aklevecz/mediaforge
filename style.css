@@ -6,8 +6,11 @@ html, body {
   height: 100%;
   overflow: hidden;
 }
+body {
+}
 .app-container {
   height:100%;
+  max-height: 100vh;
   width:100%;
   overflow-x: hidden;
   overflow-y: hidden; 
@@ -28,12 +31,9 @@ section::after {
   background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
 }
 section h1 {
-  opacity: 1;
-  -webkit-transition: opacity 2s ease-in;
-     -moz-transition: opacity 2s ease-in;
-      -ms-transition: opacity 2s ease-in;
-       -o-transition: opacity 2s ease-in;
-          transition: opacity 2s ease-in;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   position: absolute;
   top: 50%;
   left: 30%;
@@ -112,6 +112,14 @@ section h1 {
     opacity: 0;
   }
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 #contact {
 	background-color: #ffb683;
 }
@@ -158,10 +166,13 @@ h2 {
 		left: 50%;
 		margin-left: -175px;
 		color: #fef1e3;
-		font : normal 200 20px 'Inter', sans-serif;
+		font : normal 200 19px 'Inter', sans-serif;
 		text-align: center;
 		-webkit-transform: none;
 		transform: none;
+	}
+	.page a {
+		font: normal 300 20px 'halogen', sans-serif;
 	}
 	h2 {
 		font: normal 300 40px 'halogen', sans-serif;
@@ -172,5 +183,9 @@ h2 {
 	#email-us {
 		width: 300px;
 		margin-left: -150px;
+	}
+	.logo-img {
+		width: 130px;
+		padding: 5% 0 0 5%;
 	}
 }
