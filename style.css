@@ -39,7 +39,7 @@ section h1 {
        -o-transition: opacity 2s ease-in;
           transition: opacity 2s ease-in;
   position: absolute;
-  top: 48%;
+  top: 50%;
   left: 30%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
@@ -158,30 +158,13 @@ h2 {
 	section h1 {
 		position: absolute;
 		width: 350px;
-		top: 30%;
+		top: 40%;
 		left: 50%;
 		margin-left: -175px;
 		color: #fef1e3;
 		font : normal 200 18px 'Inter', sans-serif;
 		text-align: center;
+		-webkit-transform: none;
+		transform: none;
 	}
-/*	.logo-img {
-		width: 175px;
-		padding: 5% 0 0 5%;
-	}
-	h1 {
-		font : normal 200 27px 'Inter', sans-serif;
-	}
-	.page a {
-		font : normal 300 29px 'halogen', sans-serif;
-	}
-	h2 {
-		font : normal 300 53px 'halogen', sans-serif;
-	}
-	h3 {
-		font: normal 200 33px 'Inter', sans-serif;
-	}
-	button {
-		font: normal 400 25px 'Inter', sans-serif;
-	}*/
 }
