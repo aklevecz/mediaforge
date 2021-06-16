@@ -158,13 +158,23 @@ h2 {
 	section h1 {
 		position: absolute;
 		width: 350px;
-		top: 40%;
+		top: 35%;
 		left: 50%;
 		margin-left: -175px;
 		color: #fef1e3;
-		font : normal 200 18px 'Inter', sans-serif;
+		font : normal 200 20px 'Inter', sans-serif;
 		text-align: center;
 		-webkit-transform: none;
 		transform: none;
+	}
+	h2 {
+		font: normal 300 40px 'halogen', sans-serif;
+	}
+	h3 {
+		font: normal 200 24px 'Inter', sans-serif;
+	}
+	#email-us {
+		width: 300px;
+		margin-left: -150px;
 	}
 }
