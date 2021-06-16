@@ -10,11 +10,11 @@ html, body {
   overflow: hidden;
 }
 .app-container {
-  position: absolute;
+  /* position: fixed; */
   height:100%;
   width:100%;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden; 
 }
 section {
   position: relative;
